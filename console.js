@@ -1,6 +1,6 @@
 (function() {
 
-	window.con = {
+	var consoleLogger = {
 		setup: function() {
       this.createLogWrapper();
       this.createLog();
@@ -100,7 +100,7 @@
 		}
 	}
 
-	con.init({
+	consoleLogger.init({
     position: 'left'
   });
 
